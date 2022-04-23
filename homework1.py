@@ -34,6 +34,6 @@ for i in range(0,3):
     else:
         b = input("Triplet for Bob:")
         b = list(b.split(" "))
-    #print(compareTriplets(a,b))
+    
         
 
