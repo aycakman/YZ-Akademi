@@ -23,4 +23,17 @@ def compareTriplets(a,b):
     result.append(bResult)
     print(result)
                          
-print(compareTriplets(a,b))
+for i in range(0,3):
+    if(int(b[i])>=1 and int(b[i])<=100):
+        if(int(a[i])>=1 and int(a[i])<=100):
+            print(compareTriplets(a,b))
+            break
+        else:
+            a  = input("Triplet for Alice: ")
+            a = list(a.split(" "))        
+    else:
+        b = input("Triplet for Bob:")
+        b = list(b.split(" "))
+    #print(compareTriplets(a,b))
+        
+
